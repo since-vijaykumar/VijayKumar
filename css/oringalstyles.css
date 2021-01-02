@@ -1,0 +1,174 @@
+/*** CSS Version: 3 ***/
+/******************* UNITS ******************
+100% = 16px = 1rem
+*/
+/******************* TAG SELECTORS******************/
+body {
+  margin: 0;
+  /**center all body elements*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+/**  color: #40514E;*/
+  font-weight: bold;
+}
+
+hr {
+  margin: 6.25rem auto 6.25rem auto;
+  border-style: dotted none none;
+  border-color: #cae4db;
+  border-width: 8px;
+  width: 5%;
+}
+
+/******************* CLASS SELECTORS******************/
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/*********** MIDDLE CONTAINER *****************/
+.middle-container {
+  position: relative;
+  padding-top: 4.375rem;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+}
+
+.intro {
+  line-height: 2;
+  width: 60%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.first-skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 80px auto;
+}
+
+.contact-me-msg {
+  line-height: 2;
+  width: 75%;
+  margin: 3.125rem auto 3.125rem auto;
+}
+
+.BUTTON_BAR {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  width: 180px;
+  font-size: 21px;
+  font-weight: 100;
+  padding: 0;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_BAR:hover {
+  background: #1E6266;
+  border: solid #66BFBF 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/*********** BOTTOM CONTAINER *****************/
+.bottom-container {
+  position: relative;
+  padding-top: 50px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  width: 50%;
+  margin: 50px 30px;
+}
+
+.copy-right {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: #EAF6F6;
+  font-size: 12px;
+  font-weight:normal;
+  margin: inherit;
+}
